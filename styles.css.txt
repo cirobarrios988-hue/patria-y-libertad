@@ -1,0 +1,142 @@
+/* Configuraciones básicas */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Encabezado (Header) */
+.header {
+    background: linear-gradient(90deg, #004d99, #0066cc); /* Azul fuerte */
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin-bottom: 5px;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: 400;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/* Sección del Lema */
+.lema-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 3px solid #e0e0e0;
+}
+
+.lema-texto {
+    font-size: 1.8em;
+    color: #004d99;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Sección de Candidatos */
+.candidatos-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #e6e6ff; /* Azul muy claro */
+}
+
+.candidatos-section h3 {
+    font-size: 2.5em;
+    color: #004d99;
+    margin-bottom: 40px;
+}
+
+.candidatos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.candidato-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: calc(45% - 30px); /* Dos tarjetas por fila en escritorio */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.candidato-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.candidato-card h4 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.4em;
+}
+
+.candidato-card .cargo {
+    color: #cc0000; /* Color rojo para el cargo (simbólico) */
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+/* Sección de Contacto */
+.contacto-section {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contacto-section h3 {
+    color: #004d99;
+}
+
+/* Pie de página (Footer) */
+.footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* Media Queries para responsividad (móviles) */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5em;
+    }
+
+    .header h2 {
+        font-size: 1.2em;
+    }
+
+    .lema-texto {
+        font-size: 1.5em;
+    }
+
+    .candidato-card {
+        width: 100%; /* Una tarjeta por fila en móviles */
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patria y Libertad - Menos gasto, más crecimiento y equidad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Patria y Libertad</h1>
+            <h2>"Menos gasto, más crecimiento y equidad"</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="lema-section">
+            <div class="container">
+                <p class="lema-texto">Nuestro compromiso es con la **responsabilidad fiscal** y el **desarrollo sostenible**.</p>
+            </div>
+        </section>
+
+        <section class="candidatos-section">
+            <div class="container">
+                <h3>Nuestros Candidatos</h3>
+                <div class="candidatos-grid">
+                    <div class="candidato-card">
+                        <h4>Ciro Barrios</h4>
+                        <p class="cargo">Presidente</p>
+                    </div>
+                    <div class="candidato-card">
+                        <h4>Sofía Shmal</h4>
+                        <p class="cargo">Vicepresidenta</p>
+                    </div>
+                    <div class="candidato-card">
+                        <h4>Franco Villareal</h4>
+                        <p class="cargo">Diputado Nacional</p>
+                    </div>
+                    <div class="candidato-card">
+                        <h4>Tiziano Chazarreta</h4>
+                        <p class="cargo">Gobernador de la Provincia de Buenos Aires</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto-section">
+            <div class="container">
+                <h3>Únete a Nosotros</h3>
+                <p>Tu apoyo es esencial para llevar el cambio. ¡Súmate a Patria y Libertad!</p>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Patria y Libertad. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
